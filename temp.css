@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(-45deg, #e01818, #f04129, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  margin-top: 180px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#convert {
+  background-color: #ffb8b1;
+}
+
+#convert:hover {
+  background-color: #8e8185;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.content {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(153, 52, 65, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  align-items: center;
+  display: grid;
+  padding: 4% 4%;
+  border-radius: 10px;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-top: -5%;
+}
+
+h1 span {
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+}
+
+input {
+  display: block;
+  padding: 10px;
+  align-content: center;
+  margin-top: 50px;
+  font-size: 1.5em;
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif
+}
+
+
+button {
+  padding: 13px 30px;
+  font-size: 1.3rem;
+  color: #0000009f;
+  margin: 40px 27px;
+  size: 0.5rem;
+}
+
+#clear{
+  padding: 14px 35px;
+}
+
+button.new:hover {
+  background-color: #8e8185;
+  color: #ffffff;
+}
